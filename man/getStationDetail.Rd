@@ -2,9 +2,7 @@
 % Please edit documentation in R/getStationDetail.R
 \name{getStationDetail}
 \alias{getStationDetail}
-\title{Get a station record.
-note that field dataset exists in the API but is not present in the
-exchange format}
+\title{Get a station record}
 \usage{
 getStationDetail(.code)
 }
@@ -18,9 +16,7 @@ returns association with EW, EU and NU for Station_DTYPE these character
 vectors will be collated together with a `~` returning EW~EU~NU
 }
 \description{
-Get a station record.
-note that field dataset exists in the API but is not present in the
-exchange format
+Get a station record
 }
 \examples{
 \dontrun{

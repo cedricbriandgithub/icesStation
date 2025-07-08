@@ -3,21 +3,21 @@
 \name{getListRelations}
 \alias{getListRelations}
 \title{Get a vector of values for each relation
-compatibility version 1.2.0}
+compatibility version icesVocab > 1.3.3}
 \usage{
 getListRelations(st., relation_key.)
 }
 \arguments{
 \item{st.}{an object returned by getCodeDetail}
 
-\item{relation_key}{the parent key returned by getRelations()}
+\item{relation_key.}{the parent key returned by getRelations()}
 }
 \value{
 A vector of relation values
 }
 \description{
 Get a vector of values for each relation
-compatibility version 1.2.0
+compatibility version icesVocab > 1.3.3
 }
 \examples{
 \dontrun{

@@ -3,10 +3,8 @@
 \name{getRelations}
 \alias{getRelations}
 \title{Get all relations from a vocab object returned by icesVocab::getCodeDetail
-compatibility version 1.2.0}
+compatibility version icesVocab > 1.3.3}
 \usage{
-getRelations(st.)
-
 getRelations(st.)
 }
 \arguments{
@@ -15,24 +13,12 @@ getRelations(st.)
 \value{
 A vector with unique key of relations (as returned by
 the api in the parents element of the list)
-
-A vector with unique key of relations (as returned by
-the api in the parents element of the list)
 }
 \description{
 Get all relations from a vocab object returned by icesVocab::getCodeDetail
-compatibility version 1.2.0
-
-Get all relations from a vocab object returned by icesVocab::getCodeDetail
-compatibility version 1.2.0
+compatibility version icesVocab > 1.3.3
 }
 \examples{
-\dontrun{
-tt <- icesVocab::getCodeDetail("Station", 1000)
-getRelations(st. = tt)
-# [1] "Station_DTYPE" "PURPM"         "Datasets"      "ISO_3166"
-# [5] "WLTYP"         "PRGOV"         "EDMO"
-}
 \dontrun{
 tt <- icesVocab::getCodeDetail("Station", 1000)
 getRelations(st. = tt)

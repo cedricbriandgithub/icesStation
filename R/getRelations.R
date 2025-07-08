@@ -1,5 +1,5 @@
 #' Get all relations from a vocab object returned by icesVocab::getCodeDetail
-#' compatibility version 1.2.0
+#' compatibility version icesVocab > 1.3.3
 #' @param st. an object returned by getCodeDetail
 #' @return A vector with unique key of relations (as returned by
 #' the api in the parents element of the list)
@@ -33,9 +33,9 @@ getAttribute <- function(st.) {
 }
 
 #' Get a vector of values for each relation
-#' compatibility version 1.2.0
+#' compatibility version icesVocab > 1.3.3
 #' @param st. an object returned by getCodeDetail
-#' @param relation_key the parent key returned by getRelations()
+#' @param relation_key. the parent key returned by getRelations()
 #' @return A vector of relation values
 #' @examples
 #' \dontrun{

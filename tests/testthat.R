@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(icesVocab)
+library(icesStation)
 
-test_check("icesVocab")
+test_check("icesStation")

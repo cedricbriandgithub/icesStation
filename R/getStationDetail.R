@@ -1,6 +1,4 @@
-#' Get a station record.
-#' note that field dataset exists in the API but is not present in the
-#' exchange format
+#' Get a station record
 #' @param .code The code of the station
 #' @return A table with station values filled. In fields with
 #' external relations are collated together for instance if a station
@@ -9,7 +7,6 @@
 #' @examples
 #' \dontrun{
 #' stdetail <- getStationDetail(.code = 1000)
-
 #' }
 getStationDetail <- function(.code) {
   st <- icesVocab::getCodeDetail(code_type = "Station", code = .code)
